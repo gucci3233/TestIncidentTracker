@@ -14,8 +14,9 @@ Incident Tracker API
 
 ### 1. Сборка и запуск с Docker Compose
 
+* используем .env.copy
 ```bash
-docker compose --env-file .env.copy up --build # используем .env.copy
+docker compose --env-file .env.copy up --build -d 
 ```
 
 ### 3. Проверка через Docker
