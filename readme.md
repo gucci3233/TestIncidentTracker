@@ -16,14 +16,14 @@ Incident Tracker API
 
 * используем .env.copy
 ```bash
-docker compose --env-file .env.copy up --build -d 
+docker-compose --env-file .env.copy up --build -d 
 ```
 
 ### 3. Проверка через Docker
 
 ```bash
 docker-compose ps
-docker-compose logs web
+docker-compose logs web -f
 ```
 
 ---
